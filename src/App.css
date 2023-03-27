@@ -1,38 +1,275 @@
+
+.global {
+  align-items: center;
+  margin-right: 5px;
+  margin-left: 50px;
+}
 .App {
+  flex-wrap: wrap;
+  
+}
+.header {
+  flex-basis: wrap;
+  background-color: #f5f1fa;
+  font-size:x-large;
+  font-weight: 500;
   text-align: center;
+  color: #7808be;
+  padding: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.heading1 {
+  color :#000000;
+  margin-top: 20px;
+  font-size: large;
+  font-weight:500;
+  border-radius: 30px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+.heading2 {
+  color :#000000;
+  margin-top: 20px;
+  font-size: large;
+  font-weight:500;
+  border-radius: 30px;
+  padding-right: 10px;
+}
+.heading {
+  margin-top: 10px;
+  font-size: large;
+  font-weight:500;
+  
+  padding-top: 20px;
+
+}
+.heading3 {
+  color :#000000;
+  margin-bottom: 70px;
+  font-size: large;
+  font-weight:500;
+  /*background-color:#cab1f6;*/
+ margin-bottom: 20px;
+  border-radius: 20px;
+  text-align: center;
+  
+ 
+  border-color: #e1d4f8;
+  
+}
+::placeholder{
+  font-weight: bold;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.valuation {
+  background-color: #ffffff;
+  color: #0b0a0a;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  box-shadow: rgb(41, 21, 76);
+  box-sizing: content-box;
+  align-self: center;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  border: #9785a3 solid 1.5px;
+  border-radius: 5px;
+  width: 70ch;
+  padding: 0.5rem;
+  /*box-shadow: 0.25rem 0.25rem #633ea5, -0.25rem -0.25rem #643da6;*/
+  color: #000001;
+  /*text-shadow: #f6f2f2 0.095rem 0.095rem;*/
+  font-size: 0.9rem;
+  margin-left: 57px;
+  flex-flow: wrap;
+  
+  
+ 
+}
+.percentage {
+  background-color: #ffffff;
+  color: #0b0a0a;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  box-shadow: #29154c;
+  box-sizing: content-box;
+  align-self: center;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: #9785a3 solid 1.5px;
+  border-radius: 5px;
+  width: 70ch;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  margin-right: 5px;
+  flex-flow: wrap;
+  
+  margin-left: 24px;
+
+}
+.event {
+  border: #e1d4f8 solid 1.5px;
+  border-radius: 0.35rem;
+  display: grid;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0.15rem 0;
+  padding-left: 0.15rem;
+  box-shadow: 0.05rem 0.05rem #633ea5, -0.15rem -0.15rem #633ea5;
+  margin-top: 20px;
+  margin-right: 1rem;
+  text-align: center;
+  width:80ch;
+  background-color: white;
+  -moz-box-align: center;
+}
+.Name{
+  border: #9785a3 solid 1.5px;
+  border-radius: 0.35rem;
+  color: #0b0a0a;
+  padding: 0.15rem 0;
+  padding-left: 0.15rem;
+  /*box-shadow: 0.05rem 0.05rem #633ea5, -0.15rem -0.15rem #633ea5;*/
+  margin-top: 10px;
+  margin-right: 1rem;
+  text-align: center;
+  margin-bottom: 5px;
+  box-sizing: content-box;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.ctc{
+  border: #9785a3 solid 1.5px;
+  border-radius: 0.35rem;
+  color: #0b0a0a;
+  padding: 0.15rem 0;
+  padding-left: 0.15rem;
+  /*box-shadow: 0.05rem 0.05rem #633ea5, -0.15rem -0.15rem #633ea5;*/
+  margin-top: 20px;
+  margin-right: 1rem;
+  text-align: center;
+  margin-bottom: 5px;
+  box-sizing: content-box;
+  
+}
+div.settings {
+  display:grid;
+  grid-template-columns: max-content max-content;
+  grid-gap:5px;
+  font-size: larger;
+}
+div.settings label       { text-align:right; }
+/*div.settings label:after { content: ":"; }*/
+.Addmore {
+  border-radius: 0.35rem;
+  margin-top: 0px;
+  margin-right: 1rem;
+  margin-left: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  /*box-shadow: 0.05rem 0.05rem #633ea5, -0.15rem -0.15rem #633ea5;*/
+  border: #9785a3 solid 1.5px;
+  color: #9785a3;
+  padding: 0.15rem 0;
+  padding-left: 0.15rem;
+  justify-content: center;
+  background-color: white;
+  width :180px;
+  
+  
+}
+.button-72 {
+  align-items: center;
+  background-color: initial;
+ background-image: linear-gradient(rgba(179, 132, 201, .84),#633ea5);
+   border-radius: 1px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+ color: #FFFFFF;
+  cursor: pointer;
+  font-family: Quicksand,sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  background-color: initial;
+  background-image: linear-gradient(#51397a,#7856b2);
+  border-radius: 22px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(210, 111, 234, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  
+  font-family: Quicksand,sans-serif;
+  font-size: 10px;
+  
+  
+
+}
+.button-72:hover {
+  background-image: linear-gradient(#cab1f6, #391F5B 50%);
+}
+.button-72-submit:hover {
+  background-image: linear-gradient(#cab1f6, #391F5B 50%);
+}
+.button-72-submit{
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(179, 132, 201, .84),#b48ef5);
+  border-radius: 1px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Quicksand,sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  background-color: initial;
+  background-image: linear-gradient(#cab1f6,#633ea5);
+  border-radius: 22px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  font-family: Quicksand,sans-serif;
+  
+  margin-bottom: 25px;
+  margin-right: 750px;
+  
+}
+.section {
+  border: #9785a3 solid 1.5px;
+  box-sizing: border-box;
+  /*flex-basis: wrap;*/
+  /*background-color: #e1d4f8;*/
+  font-size: large;
+  font-weight: 500;
+  text-align: center;
+  color: #19181a;
+  border-radius: 10px;
+  border-color: #9785a3;
+  background-color: #f5f1fa;
+  padding: 10px;
+  /*margin-bottom: 500px;*/
+  /*margin-bottom: 10000px;*/
+  /*margin-left: 500px;*/
+  /*top: 1000px;*/
+}
+.footer {
+  flex-basis: wrap;
+  background-color: #f5f1fa;
+  font-size: large;
+  font-weight: 500;
+  text-align: center;
+  color: #0d0c0d;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }
